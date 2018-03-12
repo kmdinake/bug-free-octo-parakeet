@@ -1,0 +1,21 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "description": "testing Twilio",
+  "main": "send_sms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && nodemon --exec babel-node -- send_sms.js"
+  },
+  "author": "Captain Algorithm",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "twilio": "^3.13.1"
+  }
+}
